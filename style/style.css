@@ -1,0 +1,139 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;}
+a{
+	text-decoration: none;
+	color: white;
+}
+body{
+	
+}
+.hero h1{
+	font-family: 'Kaushan Script', cursive;
+	
+	padding-bottom: 0.8rem;
+	font-size: 80px;
+	color: #d62d20;
+	font-weight: 100;
+	text-align: center;
+
+}
+.hero p{
+	color: #505050;
+	text-align: center;
+	line-height: 1.5;
+	margin: auto;
+	font-size: 20px;
+	opacity: 0.5;
+}
+.social{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 1rem;
+	text-align: center;
+	width: 20%;
+	margin: auto;
+	margin-top:0.8rem;
+	
+
+}
+.social i {
+	font-size: 35px;
+	color:#d62d20;opacity: 0.6;
+}
+.social i:hover{
+	color:	#008744;
+	opacity: 1;
+
+}
+.nav{
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	
+	width: 100%;
+	margin: auto;
+	bottom: 0%;
+	max-width: 100%;
+}
+.nav div{
+
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	text-align: center;
+	width: 33.333%;
+	font-size: 10px;
+	height: 15px;
+
+	transition: height 0.1s ease,margin-top 0.1s ease,font-size 0.1s ease;
+}
+.about{
+
+	background-color:#ff7171;
+	color:	#ffa700	;
+}
+
+.works{
+	background-color:#ffaa71;
+	color:#ffffff;
+}
+.experiance{
+	background-color:#6e6d6d;
+}
+
+.nav div:hover{
+	margin-top: -15px;
+        height: 30px;
+      	font-size: 25px;
+   
+}
+.nav div:hover .nav div i{
+	font-size: 25px;
+}
+.animation{
+	width: 10px;
+}
+img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 8vh;
+  	width: 50%;
+	width: 250px;
+	height: 250px;
+	border-radius: 30%;
+	opacity: 0.7;
+
+}
+.nav div i{
+	font-size: 5px;
+	padding: 0px;
+	margin: 0px;
+}
+@media only screen and (max-width: 600px) {
+.nav div{
+	height: 25px;
+	padding-top: 10px;
+	transition: height 0s ease,margin-top 0s ease,font-size 0s ease;
+}
+
+ .nav div:hover{
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	text-align: center;
+	width: 33.333%;
+	font-size: 10px;
+	height: 25px;
+
+	
+
+   
+}
+}
